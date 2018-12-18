@@ -4,29 +4,23 @@
     <title>
         Giphy Button
     </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script type="text/javascript" src="javascript/Giphy.js"></script>
 </head>
 <body>
-    <div id="createdButtons" class="container">
-        <h1>
-            topics
-        </h1>
+    <div id="createdButtons">
     </div>
     <form id="giphyInput">
-            <label for="searchterm">
-                Giphy Search
-            </label>
-            <input type="text" id="giphySearch">
+        <div class="row">
+            <input type="text" id="giphySearch" class="form-control">
         </div>
         <button type="submit" class="btn btn-primary "id="search">
             Search
         </button>
     </form>
-    <div class="container">
             <div id="giphyOutput">
     
             </div>
-    </div>
 </body>
 </html>
